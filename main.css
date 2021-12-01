@@ -1,0 +1,153 @@
+/* * {
+    border: 1px solid orangered;
+} */
+nav ul {
+    list-style-type: none;
+}
+.nav-link {
+    color: black;
+    font-weight: 700;
+}
+#atlantic-nav {
+    font-size: 35px;
+}
+header, section, footer {
+    font-family: 'Lora', serif;
+    width: 100%;
+}
+.logo {
+    font-size: 60px;
+}
+.container {
+    background-color: rgb(230, 243, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 45vh;
+}
+#tag {
+    text-align: center;
+}
+.header-hr {
+    width: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .1em;
+}
+.card-section-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#card-set-1 {
+    min-width: 32%;
+    max-width: 30%;
+}
+.card-set-1-titles {
+    text-align: center;
+}
+#card-set-1:nth-child(2) {
+    border: 2px solid #d2dde9;
+}
+.card-header {
+    text-align: center;
+    font-weight: 700;
+    background-color: #d2dde9;
+    padding: 0;
+    max-height: 25px;
+}
+.card-header-empty {
+    background-color: white;
+    max-height: 25px;
+    padding: .25em;
+}
+.btn {
+    width: 100%;
+    background-color: black;
+}
+.card-section-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#card-set-2 {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+.gift-subscription {
+    display: flex;
+    flex-direction: column;
+    max-width: 60vh;
+    /* flex-grow: 3; */
+}
+.academic-rate {
+    display: flex;
+    flex-direction: column;
+    max-width: 60vh;
+    /* flex-grow: 3; */
+}
+.btn-secondary {
+    background-color: white;
+    color: #4361ee;
+    max-width: 250px;
+    max-height: 5vh;
+}
+.fa-check {
+    color: blue;
+    margin-right: .5em;
+}
+span {
+    display: flex;
+    flex: row wrap;
+}
+.plus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.plus-hr-right, .plus-hr-left {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+}
+.card-text1 {
+    align-content: center;
+}
+.mail-cost {
+    font-size: 12px;
+    margin-top: 1.25em;
+}
+.section-why {
+    background-color: rgb(230, 243, 247);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.why-title {
+    text-align: center;
+    margin-bottom: 1em;
+}
+.container-why {
+    margin: auto;
+    max-width: 80vh;
+}
+.why-hr-1, .why-hr-2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#atlantic-footer {
+    font-size: 20px;
+}
+#atlantic-nav, #atlantic-footer, .logo {
+    font-family: 'Charmonman', cursive;
+}
